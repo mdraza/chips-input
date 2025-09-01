@@ -5,7 +5,7 @@ const App = () => {
   const [chips, setChips] = useState(["coding", "reading"]);
 
   const handleAddChip = (e) => {
-    if (e.key === "Enter") {
+    if (e.key === "Enter" && input !== "") {
       setChips((prev) => [...prev, input]);
       setInput("");
     }
