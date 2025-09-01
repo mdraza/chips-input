@@ -1,0 +1,28 @@
+.main {
+  text-align: center;
+}
+.main input {
+  width: 250px;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 10px;
+  border: 2px solid #333;
+}
+.chips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chip {
+  padding: 10px;
+  background: #dfdede;
+  max-width: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 5px;
+}
+.chip button {
+  cursor: pointer;
+}
